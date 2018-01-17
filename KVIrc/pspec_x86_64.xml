@@ -14,8 +14,8 @@
     </Source>
     <Package>
         <Name>KVIrc</Name>
-        <Summary xml:lang="en">The Visual IRC Client http://www.kvirc.net/</Summary>
-        <Description xml:lang="en">KVIrc is a free portable IRC client based on the excellent Qt GUI toolkit.
+        <Summary xml:lang="en">The Visual IRC Client</Summary>
+        <Description xml:lang="en">KVIrc is a free portable IRC client based on the excellent Qt GUI toolkit. http://www.kvirc.net/
 </Description>
         <PartOf>network.irc</PartOf>
         <Files>
@@ -2321,7 +2321,7 @@
     <Package>
         <Name>KVIrc-devel</Name>
         <Summary xml:lang="en">Development files for KVIrc</Summary>
-        <Description xml:lang="en">KVIrc is a free portable IRC client based on the excellent Qt GUI toolkit.
+        <Description xml:lang="en">KVIrc is a free portable IRC client based on the excellent Qt GUI toolkit. http://www.kvirc.net/
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
