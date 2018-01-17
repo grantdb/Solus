@@ -7,8 +7,8 @@
         </Packager>
         <License>GPLV2</License>
         <PartOf>network.irc</PartOf>
-        <Summary xml:lang="en">The Visual IRC Client http://www.kvirc.net/</Summary>
-        <Description xml:lang="en">KVIrc is a free portable IRC client based on the excellent Qt GUI toolkit.
+        <Summary xml:lang="en">The Visual IRC Client</Summary>
+        <Description xml:lang="en">KVIrc is a free portable IRC client based on the excellent Qt GUI toolkit. http://www.kvirc.net/
 </Description>
         <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
     </Source>
