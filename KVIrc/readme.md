@@ -25,6 +25,7 @@ Qt version: 5.10.0
 Features: IRC, Debug, IPv6, Crypt, SSL, IfAddr, IPC, OSS, Transparency, Phonon, Webkit, DCCVoice, Perl, Python, Enchant, Qt5, KVS
 
 
-Download the eopkg file via the releases section
+
+** Download the eopkg file via the releases section
 
 Cheers!
