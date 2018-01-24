@@ -1,0 +1,26 @@
+name       : PasswordSafe
+version    : 3.45.0
+release    : 1
+source     :
+    - https://github.com/grantdb/pwsafe/archive/3.tar.gz : 3de92f48597a43d2935f9f0a739579048f6553fe6feb9d9aef9b81ca48c45fcd
+license    : Artistic License 2.0
+component  : security.crypto
+summary    : Password Safe is a password database utility
+description: |
+    Simple & Secure Password Management. Designed by renowned security technologist Bruce Schneier https://pwsafe.org/
+builddeps  :
+    - wxwidgets-devel
+    - fakeroot
+    - g++
+    - gettext-devel
+    - qrencode-devel
+    - xerces-c-devel
+    - libxt-devel
+    - libxtst-devel
+    - zip
+setup      : |
+    %cmake -DNO_YUBI=1 -DNO_GTEST=1 .
+build      : |
+    %make
+install    : |
+    %make_install

@@ -1,0 +1,44 @@
+<PISI>
+    <Source>
+        <Name>PasswordSafe</Name>
+        <Packager>
+            <Name>Grant Berntsen</Name>
+            <Email>grantdb@gmail.com</Email>
+        </Packager>
+        <License>Artistic License 2.0</License>
+        <PartOf>security.crypto</PartOf>
+        <Summary xml:lang="en">Password Safe is a password database utility</Summary>
+        <Description xml:lang="en">Simple &amp; Secure Password Management. Designed by renowned security technologist Bruce Schneier https://pwsafe.org/
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>PasswordSafe</Name>
+        <Summary xml:lang="en">Password Safe is a password database utility</Summary>
+        <Description xml:lang="en">Simple &amp; Secure Password Management. Designed by renowned security technologist Bruce Schneier https://pwsafe.org/
+</Description>
+        <PartOf>security.crypto</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications/pwsafe.desktop</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="data">/usr/share/pixmaps/pwsafe.png</Path>
+            <Path fileType="data">/usr/share/pwsafe/xml/KPV1_to_PWS.xslt</Path>
+            <Path fileType="data">/usr/share/pwsafe/xml/KPV2_to_PWS.xslt</Path>
+            <Path fileType="data">/usr/share/pwsafe/xml/pwsafe.xsd</Path>
+            <Path fileType="data">/usr/share/pwsafe/xml/pwsafe.xsl</Path>
+            <Path fileType="data">/usr/share/pwsafe/xml/pwsafe_filter.xsd</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-01-24</Date>
+            <Version>3.45.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Grant Berntsen</Name>
+            <Email>grantdb@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
