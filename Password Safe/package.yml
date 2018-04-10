@@ -1,8 +1,8 @@
 name       : PasswordSafe
-version    : 3.45.0
-release    : 1
-source     :
-    - https://github.com/grantdb/pwsafe/archive/3.tar.gz : 3de92f48597a43d2935f9f0a739579048f6553fe6feb9d9aef9b81ca48c45fcd
+version    : 1.04
+release    : 4
+source     : 
+- https://github.com/grantdb/pwsafe/archive/39.tar.gz : 84b737bc36a6591226e5a74fb02e4ae13345cd5a096f28a754082077179e0806
 license    : Artistic License 2.0
 component  : security.crypto
 summary    : Password Safe is a password database utility

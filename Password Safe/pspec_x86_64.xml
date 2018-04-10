@@ -21,21 +21,44 @@
         <Files>
             <Path fileType="executable">/usr/bin</Path>
             <Path fileType="data">/usr/share/applications/pwsafe.desktop</Path>
-            <Path fileType="doc">/usr/share/doc</Path>
             <Path fileType="localedata">/usr/share/locale</Path>
             <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/default/html/images/options</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/default/html/images/toolbar/classic</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/default/html/images/toolbar/new</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/helpDE.zip</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/helpEN.zip</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/helpES.zip</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/helpFR.zip</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/helpPL.zip</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/helpRU.zip</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/helpZH.zip</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/pwsafeDE/html/images/options</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/pwsafeDE/html/images/toolbar/classic</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/pwsafeDE/html/images/toolbar/new</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/pwsafeES/html/images/options</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/pwsafeES/html/images/toolbar/classic</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/pwsafeES/html/images/toolbar/new</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/pwsafeFR/html/images</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/pwsafePL/html/images/options</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/pwsafeRU/html/images/options</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/pwsafeRU/html/images/toolbar/classic</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/pwsafeRU/html/images/toolbar/new</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/pwsafeZH/html/images/options</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/pwsafeZH/html/images/toolbar/classic</Path>
+            <Path fileType="data">/usr/share/passwordsafe/help/pwsafeZH/html/images/toolbar/new</Path>
+            <Path fileType="data">/usr/share/passwordsafe/xml/KPV1_to_PWS.xslt</Path>
+            <Path fileType="data">/usr/share/passwordsafe/xml/KPV2_to_PWS.xslt</Path>
+            <Path fileType="data">/usr/share/passwordsafe/xml/pwsafe.xsd</Path>
+            <Path fileType="data">/usr/share/passwordsafe/xml/pwsafe.xsl</Path>
+            <Path fileType="data">/usr/share/passwordsafe/xml/pwsafe_filter.xsd</Path>
             <Path fileType="data">/usr/share/pixmaps/pwsafe.png</Path>
-            <Path fileType="data">/usr/share/pwsafe/xml/KPV1_to_PWS.xslt</Path>
-            <Path fileType="data">/usr/share/pwsafe/xml/KPV2_to_PWS.xslt</Path>
-            <Path fileType="data">/usr/share/pwsafe/xml/pwsafe.xsd</Path>
-            <Path fileType="data">/usr/share/pwsafe/xml/pwsafe.xsl</Path>
-            <Path fileType="data">/usr/share/pwsafe/xml/pwsafe_filter.xsd</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-01-24</Date>
-            <Version>3.45.0</Version>
+        <Update release="4">
+            <Date>2018-04-10</Date>
+            <Version>1.04</Version>
             <Comment>Packaging update</Comment>
             <Name>Grant Berntsen</Name>
             <Email>grantdb@gmail.com</Email>
