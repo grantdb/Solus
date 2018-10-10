@@ -1,8 +1,8 @@
 name       : KVIrc
-version    : 4.9.3
+version    : 5.0.0
 release    : 1
 source     :
-    - https://github.com/grantdb/KVIrc/archive/4.9.tar.gz : d18eb073e0437ea9fb445586417c2d505026a681336c814966a28cb9fce55f7a
+    - https://github.com/grantdb/KVIrc/archive/5.0.tar.gz : 111d641af752b86265d9cf8a92146d9c159923245b868b234f91f4d007df8ce7
 license    : GPLV2
 component  : network.irc
 summary    : The Visual IRC Client
@@ -31,3 +31,4 @@ build      : |
     %make
 install    : |
     %make install DESTDIR=/home/build/YPKG/root/KVIrc/install
+
